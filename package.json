@@ -2,11 +2,15 @@
   "name": "logiquik-api",
   "version": "1.0.0",
   "description": "Api for the logiquik db",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.15.0",
+    "moment": "^2.24.0"
+  }
 }
